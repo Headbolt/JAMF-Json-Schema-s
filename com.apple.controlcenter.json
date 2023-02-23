@@ -1,0 +1,45 @@
+{
+	"title": "Control Center",
+	"description": "Control Center Policies",
+	"__preferencedomain": "com.apple.controlcenter",
+	"properties": {
+			"Bluetooth": {
+				"title": "Bluetooth On Menu Bar",
+				"description": "Bluetooth On Menu Bar",
+				"property_order": 10,
+				"options": {
+					"infoText": "Key name: Bluetooth"
+				},
+				"type": "integer",
+					"options": {
+						"enum_titles": [
+							"Allow",
+							"Disallow"
+						]
+                    },
+					"enum": [
+						18,
+						0
+					]
+		},
+			"WiFi": {
+				"title": "WiFi On Menu Bar",
+				"description": "WiFi On Menu Bar",
+				"property_order": 10,
+				"options": {
+					"infoText": "Key name: WiFi"
+				},
+				"type": "integer",
+					"options": {
+						"enum_titles": [
+							"Allow",
+							"Disallow"
+						]
+                    },
+					"enum": [
+						18,
+						0
+					]
+		}
+	}
+}
