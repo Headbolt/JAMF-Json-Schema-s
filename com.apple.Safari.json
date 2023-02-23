@@ -1,0 +1,61 @@
+{
+  "title": "Safari",
+  "description": "Safari Policies",
+  "__preferencedomain": "com.apple.Safari",
+  "properties": {
+    "AutoOpenSafeDownloads": {
+      "title": "Auto Open Safe Downloads",
+      "description": "AutoOpenSafeDownloads",
+      "property_order": 10,
+      "options": {
+        "infoText": "Key name: AutoOpenSafeDownloads"
+      },
+      "type": "boolean"
+    },
+    "WarnAboutFraudulentWebsites": {
+      "title": "Warn About Fraudulent Websites",
+      "description": "WarnAboutFraudulentWebsites",
+      "property_order": 10,
+      "options": {
+        "infoText": "Key name: WarnAboutFraudulentWebsites"
+      },
+      "type": "boolean"
+    },
+    "BlockStoragePolicy": {
+      "title": "Block Storage Policy",
+      "description": "Block Storage Policy",
+      "property_order": 10,
+      "options": {
+        "infoText": "Key name: BlockStoragePolicy"
+      },
+      "type": "integer"
+    },
+    "WebKitPreferences.storageBlockingPolicy": {
+      "title": "WebKit Preferences Storage Blocking Policy",
+      "description": "WebKit Preferences Storage Blocking Policy",
+      "property_order": 10,
+      "options": {
+        "infoText": "Key name: WebKitPreferences.storageBlockingPolicy"
+      },
+      "type": "integer"
+    },
+    "WebKitStorageBlockingPolicy": {
+      "title": "WebKit Block Storage Policy",
+      "description": "WebKitBlock Storage Policy",
+      "property_order": 10,
+      "options": {
+        "infoText": "Key name: WebKitStorageBlockingPolicy"
+      },
+      "type": "integer"
+    },
+    "ShowFullURLInSmartSearchField": {
+      "title": "Show Full URL In Smart Search Field",
+      "description": "Show Full URL In Smart Search Field",
+      "property_order": 10,
+      "options": {
+        "infoText": "Key name: WebKitStorageBlockingPolicy"
+      },
+      "type": "boolean"
+    }	
+  }
+}
