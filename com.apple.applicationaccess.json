@@ -1,0 +1,52 @@
+{
+	"title": "Application Access",
+	"description": "Application Access Policies",
+	"__preferencedomain": "com.apple.applicationaccess",
+	"properties": {
+			"allowAirDrop": {
+				"title": "Allow AirDrop",
+				"description": "Allow AirDrop",
+				"property_order": 10,
+				"options": {
+					"infoText": "Key name: allowAirDrop"
+				},
+				"type": "boolean"
+		},
+		"allowAirPlayIncomingRequests": {
+			"title": "Allow AirPlay Incoming Requests",
+			"description": "Allow AirPlay Incoming Requests",
+			"property_order": 10,
+			"options": {
+				"infoText": "Key name: allowAirPlayIncomingRequests"
+			},
+			"type": "boolean"
+		},
+		"allowAssistant": {
+			"title": "Allow Siri",
+			"description": "Allow Siri",
+			"property_order": 10,
+			"options": {
+				"infoText": "Key name: allowAssistant"
+			},
+			"type": "boolean"
+		},
+		"allowApplePersonalizedAdvertising": {
+			"title": "Apple Personalized Advertising",
+			"description": "Apple Personalized Advertising",
+			"property_order": 10,
+			"options": {
+				"infoText": "Key name: allowApplePersonalizedAdvertising"
+			},
+			"type": "boolean"
+		},
+		"enforcedSoftwareUpdateDelay": {
+			"title": "Number of Days to Defer Apple Software Updates",
+			"description": "Number of Days to Defer Apple Software Updates",
+			"property_order": 10,
+			"options": {
+				"infoText": "Key name: enforcedSoftwareUpdateDelay"
+			},
+				"type": "integer"
+		}
+	}
+}
