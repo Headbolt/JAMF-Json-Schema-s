@@ -1,0 +1,16 @@
+{
+	"title": "Apple MCX",
+	"description": "Apple MCX",
+	"__preferencedomain": "com.apple.MCX",
+	"properties": {
+		"forceInternetSharingOff": {
+			"title": "Disable Internet Sharing",
+			"description": "Disables Internet Sharing",
+			"property_order": 10,
+			"options": {
+				"infoText": "Key name: forceInternetSharingOff"
+			},
+			"type": "boolean"
+		}
+	}
+}
