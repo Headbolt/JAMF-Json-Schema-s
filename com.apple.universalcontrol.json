@@ -1,0 +1,16 @@
+{
+	"title": "Apple Universal Control",
+	"description": "Apple Universal Control",
+	"__preferencedomain": "com.apple.universalcontrol",
+	"properties": {
+		"Disable": {
+			"title": "Disable",
+			"description": "Disables Universal Control",
+			"property_order": 10,
+			"options": {
+				"infoText": "Key name: Disable"
+			},
+			"type": "boolean"
+		}
+	}
+}
