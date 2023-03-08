@@ -1,1 +1,32 @@
-vv
+{
+	"title": "Appple Desktop",
+	"description": "Apple Desktop",
+	"__version": "1.0",
+	"__preferencedomain": "com.apple.desktop",
+    "links": [
+        {
+            "rel": "Documentation Link",
+            "href": "https://github.com/Headbolt/JAMF-Json-Schema-s/edit/main/com.apple.desktop.json"
+        }
+    ],
+	"properties": {
+		"locked": {
+			"title": "Lock Desktop Picture To Selected Image",
+			"description": "Locks Desktop Picture To Selected Image",
+			"property_order": 10,
+			"options": {
+				"infoText": "Key name: locked"
+			},
+			"type": "boolean"
+		},
+		"override-picture-path": {
+			"title": "Selected Desktop Picture Path",
+			"description": "Path To Selected Desktop Picture",
+			"property_order": 10,
+			"options": {
+				"infoText": "Key name: override-picture-path"
+			},
+			"type": "string"
+		}
+	}
+}
