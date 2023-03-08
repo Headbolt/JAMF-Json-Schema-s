@@ -1,0 +1,71 @@
+{
+	"title": "Setup Assistant Preferences",
+	"description": "Setup Assistant Preferences",
+	"__version": "1.0",
+	"__preferencedomain": "com.apple.SetupAssistant.managed",
+	"properties": {
+			"SkipCloudSetup": {
+				"title": "Skip iCloud",
+				"description": "Skip iCloud",
+				"property_order": 10,
+				"options": {
+					"infoText": "Key name: SkipCloudSetup"
+				},
+				"type": "boolean"
+		},
+			"SkipCloudStorageSetup": {
+				"title": "Skip iCloud Storage",
+				"description": "Skip iCloud Storage",
+				"property_order": 10,
+				"options": {
+					"infoText": "Key name: SkipCloudStorageSetup"
+				},
+				"type": "boolean"
+		},
+			"SkipPrivacySetup": {
+				"title": "Skip Data & Privacy",
+				"description": "Skip Data & Privacy",
+								"property_order": 10,
+				"options": {
+					"infoText": "Key name: SkipPrivacySetup"
+				},
+				"type": "boolean"
+		},
+			"SkipSiriSetup": {
+				"title": "Skip Siri",
+				"description": "Skip Siri",
+				"property_order": 10,
+				"options": {
+					"infoText": "Key name: SkipSiriSetup"
+				},
+				"type": "boolean"
+		},
+			"SkipTrueTone": {
+				"title": "Skip True Tone Display",
+				"description": "Skip True Tone Display",
+				"property_order": 10,
+				"options": {
+					"infoText": "Key name: SkipTrueTone"
+				},
+				"type": "boolean"
+		},
+			"SkipScreenTime": {
+				"title": "Skip Screen Time",
+				"description": "Skip Screen Time",
+				"property_order": 10,
+				"options": {
+					"infoText": "Key name: SkipScreenTime"
+				},
+				"type": "boolean"
+		},
+			"SkipTouchIDSetup": {
+				"title": "Skip Touch ID",
+				"description": "Skip Touch ID",
+				"property_order": 10,
+				"options": {
+					"infoText": "Key name: SkipTouchIDSetup"
+				},
+				"type": "boolean"
+		}
+	}
+}
