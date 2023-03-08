@@ -1,0 +1,65 @@
+{
+	"title": "Jamf Azure Active Directory",
+	"description": "Jamf Azure Active Directory",
+	"__version": "1.0",
+	"__preferencedomain": "com.jamf.management.jamfAAD",
+    "links": [
+        {
+            "rel": "Documentation Link",
+            "href": "https://github.com/Headbolt/com.jamf.management.jamfAAD/blob/main/com.jamf.management.jamfAAD.json"
+        }
+    ],
+	"properties": {
+			"disableUPNLoginHint": {
+				"title": "Disable UPN LoginHint",
+				"description": "Disable's UPN Login Hint",
+				"property_order": 10,
+				"options": {
+					"infoText": "Key name: disableUPNLoginHint"
+				},
+				"type": "boolean"
+			},
+			"tokenRetryCount": {
+				"title": "Token Retry Count",
+				"description": "(tokenRetryCount)- The interval in hours between token retries",
+				"property_order": 10,
+				"options": {
+					"infoText": "Key name: tokenRetryCount",
+                    "title": "Configured",
+                    "type": "integer",
+                    "options": {
+                        "enum_titles": [
+							"8",
+							"9",
+							"10"
+						]
+					},
+					"enum": [
+						8,
+						9,
+						10
+					]
+				}
+			},
+			"tokenRetryWaitTime": {
+				"title": "Token Retry Wait Time",
+				"description": "(tokenRetryWaitTime)- The number of seconds between token retries",
+				"property_order": 10,
+				"options": {
+					"infoText": "Key name: tokenRetryWaitTime",
+					"title": "Configured",
+					"type": "integer",
+					"options": {
+						"enum_titles": [
+							"1800",
+							"3600"
+						]
+					},
+					"enum": [
+						1800,
+						3600
+					]
+				}
+			}
+	}
+}
