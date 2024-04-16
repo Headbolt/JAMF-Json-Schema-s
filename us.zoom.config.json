@@ -13,7 +13,7 @@
     "remove_empty_properties": true
   },
   "properties": {
-	"AU2_EnableAutoUpdate": {
+    "AU2_EnableAutoUpdate": {
       "title": "Enable Auto Update",
       "description": "Enable auto updates through the client. Disabling this policy also disables the following AU2 policies: AU2_SetUpdateChannel, AU2_LimitManualUpdateVersion, AU2_DeploySpecificVersion, AU2_SetUpdateSchedule, AU2_InstallAtIdleTime, AU2_SafeUpgradePeriod",
       "property_order": 10,
@@ -22,24 +22,24 @@
       },
       "type": "boolean"
     },
- 	"AU2_SetUpdateChannel": {
+    "AU2_SetUpdateChannel": {
       "title": "Set Update Channel",
-	  "type": "string",
+      "type": "string",
       "description": "Set the cadence of updates applied to the desktop client: Slow (0): fewer updates and better stability. Fast (1): newest features and updates.",
       "property_order": 10,
       "options": {
         "infoText": "Key name: AU2_SetUpdateChannel",
-		"enum_titles": [
-			"Slow",
-			"Fast"
-		]
-	  },
-		"enum": [
-			"0",
-			"1"
-		]
+        "enum_titles": [
+          "Slow",
+          "Fast"
+        ]
+      },
+      "enum": [
+        "0",
+        "1"
+      ]
     },
- 	"AU2_EnableShowZoomUpdates": {
+    "AU2_EnableShowZoomUpdates": {
       "title": "Show Zoom Updates",
       "description": "Show the Zoom Updates section of the General tab in client settings. Depending on if AutoUpdate and SetUpdateChannel are required or not, users may only be able to view this setting.",
       "property_order": 10,
@@ -48,16 +48,16 @@
       },
       "type": "boolean"
     },
- 	"AU2_EnableUpdateAvailableBanner": {
-      "title": "Show Zoom Updates",
+    "AU2_EnableUpdateAvailableBanner": {
+      "title": "Enable Update Available Banner",
       "description": "Show the Update Available banner on the Home tab of the client, when an update is available.",
       "property_order": 10,
       "options": {
         "infoText": "Key name: AU2_EnableUpdateAvailableBanner"
       },
       "type": "boolean"
-    },  
-   	"AU2_EnablePromptUpdateForAU2": {
+    },
+    "AU2_EnablePromptUpdateForAU2": {
       "title": "Prompt Update",
       "description": "Prompt users to update when exiting a meeting or webinar, when an update is available.",
       "property_order": 10,
@@ -66,7 +66,16 @@
       },
       "type": "boolean"
     },
-   	"AU2_EnableManualUpdate": {
+    "AU2_EnableUpdateSuccessNotification": {
+      "title": "Enable Update Success Notification",
+      "description": "Show notification indicating an update has been successfully installed.",
+      "property_order": 10,
+      "options": {
+        "infoText": "Key name: AU2_EnableUpdateSuccessNotification"
+      },
+      "type": "boolean"
+    },
+    "AU2_EnableManualUpdate": {
       "title": "Enable Manual Update",
       "description": "Control the visibility of the Check for Updates option in the client.",
       "property_order": 10,
@@ -75,7 +84,7 @@
       },
       "type": "boolean"
     },
-	"AU2_InstallAtIdleTime": {
+    "AU2_InstallAtIdleTime": {
       "title": "Install At Idle Time",
       "description": "Auto install an available update when the device is idle. Idle devices must be: No current meeting, phone call, or contact center engagement. No upcoming meeting within 30 minutes. Screen is locked or screen saver is active",
       "property_order": 10,
